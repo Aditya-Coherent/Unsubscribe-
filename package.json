@@ -1,0 +1,7 @@
+{
+  "name": "cmi-unsubscribe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unsubscribe page for CMI newsletters. Vercel serverless + GitHub JSON store.",
+  "engines": { "node": ">=18" }
+}
