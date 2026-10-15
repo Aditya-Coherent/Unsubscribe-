@@ -1,6 +1,6 @@
 {
   "cleanUrls": true,
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)data/'",
+  "ignoreCommand": "if git rev-parse --verify -q HEAD^ >/dev/null; then git diff --quiet HEAD^ HEAD -- . ':(exclude)data/'; else exit 1; fi",
   "headers": [
     { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] }
   ]
