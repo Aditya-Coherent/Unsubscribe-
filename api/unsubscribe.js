@@ -51,11 +51,13 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { GITHUB_TOKEN, GITHUB_REPO } = process.env;
+  const { GITHUB_REPO } = process.env;
   const branch = process.env.GITHUB_BRANCH || 'main';
   const file = process.env.GITHUB_FILE || 'data/unsubscribes.json';
-  if (!GITHUB_TOKEN || !GITHUB_REPO) {
-    return res.status(500).json({ error: 'Server is not configured.' });
+  const missing = ['GITHUB_TOKEN', 'GITHUB_REPO'].filter((k) => !process.env[k]);
+  if (missing.length) {
+    console.error(`Missing env vars: ${missing.join(', ')}`);
+    return res.status(500).json({ error: 'Server is not configured.', missing });
   }
 
   let body = req.body;
