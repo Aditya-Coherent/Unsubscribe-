@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "email": "yourname@test.com",
+    "reason": "",
+    "source": "",
+    "unsubscribed_at": "2026-10-15T10:25:04.302Z"
+  }
+]
