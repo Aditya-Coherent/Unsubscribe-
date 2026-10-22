@@ -10,5 +10,11 @@
     "reason": "Too many emails",
     "source": "",
     "unsubscribed_at": "2026-10-16T12:12:29.064Z"
+  },
+  {
+    "email": "sunchengxin@viewsheen.com",
+    "reason": "Content isn’t relevant to me",
+    "source": "",
+    "unsubscribed_at": "2026-10-22T09:37:53.357Z"
   }
 ]
