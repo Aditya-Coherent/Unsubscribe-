@@ -40,5 +40,11 @@
     "reason": "Too many emails",
     "source": "",
     "unsubscribed_at": "2026-10-29T10:56:04.554Z"
+  },
+  {
+    "email": "cbcampbell5252@gmail.com",
+    "reason": "",
+    "source": "",
+    "unsubscribed_at": "2026-10-31T11:23:16.840Z"
   }
 ]
