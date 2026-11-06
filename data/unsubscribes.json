@@ -52,5 +52,11 @@
     "reason": "",
     "source": "",
     "unsubscribed_at": "2026-11-06T13:49:37.476Z"
+  },
+  {
+    "email": "moja@ox-on.com",
+    "reason": "Too many emails",
+    "source": "",
+    "unsubscribed_at": "2026-11-06T13:56:47.796Z"
   }
 ]
