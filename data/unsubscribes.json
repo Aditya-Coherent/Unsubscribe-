@@ -58,5 +58,11 @@
     "reason": "Too many emails",
     "source": "",
     "unsubscribed_at": "2026-11-06T13:56:47.796Z"
+  },
+  {
+    "email": "nmizukami@logos-p.com",
+    "reason": "Too many emails",
+    "source": "",
+    "unsubscribed_at": "2026-11-09T00:09:08.887Z"
   }
 ]
